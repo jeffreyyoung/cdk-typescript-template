@@ -1,6 +1,6 @@
 import apigateway = require("@aws-cdk/aws-apigateway");
 import cdk = require("@aws-cdk/core");
-import { LambdaEndpoint } from "./LambdaEndpoint";
+import { LambdaEndpoint } from "./constructs/LambdaEndpoint";
 
 
 export class AppStack extends cdk.Stack {
